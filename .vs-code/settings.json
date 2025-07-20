@@ -4,7 +4,7 @@
   "editor.fontSize": 14,
   "editor.console.fontSize": 14,
   "terminal.integrated.fontSize": 14,
-  "editor.glyphMargin": true,
+  "editor.glyphMargin": false,
   "workbench.activityBar.location": "hidden",
   "editor.lineNumbers": "off",
 
@@ -29,5 +29,21 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Extensions
+  "prettier.enableDebugLogs": false,
+  "prettier.requireConfig": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }
